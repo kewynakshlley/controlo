@@ -20,10 +20,10 @@ Installation
 
 To run Expense Tracker on your local machine, you will need to have Node.js and npm installed. Once you have those installed, follow these steps:
 
-Clone the repository: git clone https://github.com/your-username/expense-tracker.git
-Navigate to the project directory: cd expense-tracker
+Clone the repository
+Navigate to the project directory: cd econtrolo
 Install dependencies: yarn install
 Start the development server: yarn dev
 
 Contributing
-If you would like to contribute to Expense Tracker, feel free to submit a pull request with your changes. Before submitting a pull request, please ensure that your code follows the project's coding standards and has been tested thoroughly.
+If you would like to contribute to econtrolo, feel free to submit a pull request with your changes. Before submitting a pull request, please ensure that your code follows the project's coding standards and has been tested thoroughly.
