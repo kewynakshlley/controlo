@@ -1,4 +1,5 @@
 {
+  "homepage": "http://kewynakshlley.github.io/controlo",
   "name": "test",
   "private": true,
   "version": "0.0.0",
@@ -7,10 +8,9 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "predeploy" : "vite build",
-    "deploy" : "gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
-  "homepage": "http://kewynakshlley.github.io/controlo",
   "dependencies": {
     "gh-pages": "^5.0.0",
     "react": "^18.2.0",
