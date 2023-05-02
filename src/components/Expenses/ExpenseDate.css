@@ -1,0 +1,29 @@
+.expense-el {
+  font-size: 30px;
+  font-family: Arial;
+}
+
+.exp-date {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90px;
+  border-radius: 10px;
+  border: 1px solid black;
+  background-color: aliceblue;
+  height: 90px;
+}
+
+.exp-day {
+  font-weight: bolder;
+}
+
+.exp-year {
+  font-size: 18px;
+}
+
+.exp-month {
+  font-size: 18px;
+  font-weight: bold;
+}

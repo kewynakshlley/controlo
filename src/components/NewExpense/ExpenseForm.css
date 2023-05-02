@@ -1,0 +1,70 @@
+.new-expense__controls {
+  display: grid;
+  grid-template-columns: 300px 300px;
+  grid-template-rows: repeat(2, 1fr);
+  align-items: center;
+  justify-content: center;
+  column-gap: 100px;
+  width: auto;
+  padding: 30px;
+}
+
+.new-expense__control__title {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: auto;
+  align-items: start;
+}
+
+.new-expense__control__amount {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: auto;
+  align-items: start;
+}
+
+.new-expense__control__date {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: start;
+  width: auto;
+}
+
+.new-expense__actions {
+  display: flex;
+  gap: 25px;
+  align-items: flex-end;
+  width: auto;
+}
+
+.input-field {
+  width: 100%;
+  max-width: 280px;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 1.5px 5px 0 rgba(0, 0, 0, 0.19);
+}
+
+.input-title {
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.btn {
+  height: 45px;
+  width: 130px;
+  border: none;
+  color: white;
+  font-size: 15px;
+  border-radius: 10px;
+  background-color: #0026fd;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #526af5;
+}
