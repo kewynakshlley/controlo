@@ -28,6 +28,7 @@ function NewExpense(props) {
     };
 
     props.onExpenseSubmitted(expenseData);
+    props.changeState();
 
     setEnteredTitle('');
     setEnteredAmount('');
@@ -77,7 +78,7 @@ function NewExpense(props) {
           <button className="btn" type="cancel">
             Cancel
           </button>
-          <button className="btn" type="submit" onClick={props.changeState}>
+          <button className="btn" type="submit">
             Add expense
           </button>
         </div>
